@@ -53,7 +53,7 @@ signalVersion = "9.1.6"
 signalDate = "2017-02-25"
 
 # 生成的单个版本某一个天Crash详情文件路径
-createFilePath = "/Users/lmc/Desktop/Crash/发新版后Crash分析报告/#{signalVersion}_#{signalDate}_crash_detail.log"
+createFilePath = "/Users/lmc/Desktop/GitHub/OrgCrash/Analyse/AfterReleaseNewVersion/#{signalVersion}_#{signalDate}_crash_detail.log"
 
 # 分析某个版本某一天的Crash详细信息
 SingleVersionCrashDetail.analyseSingleVersionCrash(signalDate, signalVersion, createFilePath)
